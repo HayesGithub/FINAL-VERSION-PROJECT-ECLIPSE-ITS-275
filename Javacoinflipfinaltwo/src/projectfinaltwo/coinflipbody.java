@@ -10,6 +10,7 @@ import java.util.Random;
 
 
 		public void superTest() {
+			//method is not static because i need to demonstrate a super keyword and you cannot use super in a static method
 			super.superTest();
 			//uses super keyword to pull the superTest method from coinflipcode class Overriding the current superTest Method
 			menudisplay();
@@ -31,7 +32,7 @@ import java.util.Random;
 				System.out.println("Please enter your age here: ");
 				//Print line asking user for age input
 				age = input.nextInt();
-				//Sets next input to be a integer and assigned it the the varaiable name age
+				//Sets next input from scanner to be a integer and assigned it the the varaiable name age
 				playgamemenu();
 				//Calls to the playgamemenu() method
 		    	
