@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="projectfinaltwo.coinflipbody" project="Javacoinflipfinaltwo" 
+    file="/Javacoinflipfinaltwo/src/projectfinaltwo/coinflipbody.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="279" width="129" x="558" y="323"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="projectfinaltwo.aAbstractexample" project="Javacoinflipfinaltwo" 
+    file="/Javacoinflipfinaltwo/src/projectfinaltwo/aAbstractexample.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="129" x="396" y="58"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="projectfinaltwo.Abstractexample" project="Javacoinflipfinaltwo" 
+    file="/Javacoinflipfinaltwo/src/projectfinaltwo/Abstractexample.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="122" x="396" y="323"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="projectfinaltwo.coinflipcode" project="Javacoinflipfinaltwo" 
+    file="/Javacoinflipfinaltwo/src/projectfinaltwo/coinflipcode.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="114" x="565" y="58"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="projectfinaltwo.mainclass" project="Javacoinflipfinaltwo" 
+    file="/Javacoinflipfinaltwo/src/projectfinaltwo/mainclass.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="113" x="558" y="642"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="6">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="7">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <generalization id="8">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
